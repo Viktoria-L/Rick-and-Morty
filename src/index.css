@@ -1,0 +1,9 @@
+@tailwind components;
+@tailwind utilities;
+@tailwind base;
+@layer base {
+    @font-face {
+        font-family: 'Rickmorty';
+        src: url("./assets/font/get_schwifty.ttf") format('truetype');
+    }
+}

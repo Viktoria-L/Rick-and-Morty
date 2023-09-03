@@ -1,0 +1,13 @@
+header {
+  height: 200px;
+
+}
+
+
+.outlinedHeader {
+
+    -webkit-text-stroke: 1px #f0e877; 
+    /* text-stroke: 2px #f4f743;  */
+  }
+
+
