@@ -7,6 +7,10 @@
   background: radial-gradient(circle, rgba(21,251,10,1) 21%, rgba(233,49,159,1) 85%);
 }
 
+html{
+  height: 100%;
+}
+
 .content {
   max-width: 1280px;
  margin: auto;

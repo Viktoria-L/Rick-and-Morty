@@ -71,7 +71,7 @@ function App() {
   }, [nameSearch, gender, status, species, pageNumber])
 
   return (
-    <div className='content h-screen'>      
+    <div className='content h-full'>      
         <Header />    
         {error !== null && <p className="Error">{error.message}</p>}
         <Filter nameSearch={nameSearch} gender={gender} status={status} species={species} handleNameSearch={handleNameSearch} handleGenderChange={handleGenderChange} handleSpeciesChange={handleSpeciesChange} handleStatusChange={handleStatusChange} />
